@@ -10,7 +10,7 @@ h1, p, a {
 	vertical-align: baseline; /* Baseline is the default */
 }
 
-/* Header 
+Header 
 
 	#header {
 		position: relative;
@@ -80,4 +80,4 @@ h1, p, a {
 				margin-bottom: -33px;
 				background: url("images/arrow.svg") no-repeat;
 			}
-			*/
+			
