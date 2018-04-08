@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html >
 <head>
-  <!-- Site made with Mobirise Website Builder v4.7.0, https://mobirise.com -->
+  <!-- Site made with Mobirise Website Builder v4.7.0, https://mobirise.com and then modified by JADunnwizz  -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.7.0, mobirise.com">
@@ -71,7 +71,7 @@
 
     
 
-    <div class="container align-center">
+   <!-- <div class="container align-center">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
                 <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
@@ -82,7 +82,25 @@
             </div>
         </div>
     </div>
-    
+    -->
+
+    <div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbcXKwump-Z9Btd_bsHarB3sCwJ84N_-4&callback=myMap"></script>
+
+
+
 </section>
 
 <section class="cid-qODORBHzkE" id="footer1-g">
